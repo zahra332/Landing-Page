@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+  font-family:Roboto;
+  margin:0px;
+  padding:0px;
+  
+}
+
+.header-container{
+  background:#1F2937;
+  padding:42px;
+  color:white;    
+}
+
+ul{
+  list-style-type:none;
+  display:flex;
+  padding:0px;
+  margin:0px;
+  gap:16px;
+  
+}
+.logo{
+  font-weight:900;
+  color:#F9FAF8;
+  font-size:24px;
+}
+
+a{
+  text-decoration:none;
+  color:#E5E7EB; 
+  padding:8px;
+  
+}
+.header{
+ display:flex;
+ justify-content: space-between;
+ font-size:18px;
+}
+.container{
+  display:flex; 
+  justify-content:space-between;
+  align-items:center;
+  margin:0px;
+  margin-bottom:30px;
+  
+}
+
+.img{
+  padding:100px 170px ;
+  background:gray;
+  margin:9px;
+  display:flex;
+  display:flex;
+}
+
+button{
+  border:none;
+  background:#3882F6;
+  color:white;
+  border-radius: 5px;
+  padding:4px 26px; 
+}
+h1{
+  font-size:48px;
+  color:#F9FAF8;
+  font-weight:800;
+}
+.head{
+  display:flex;
+  justify-content:center;
+  margin:10px;
+  color:#1F2937;
+  font-size:32px;
+  font-weight:800;  
+}
+
+.sub-container{
+ display:flex; 
+ margin:24px;
+ justify-content:center;
+ text-align:center;
+ gap:32px; 
+}
+
+img{
+  border: 3px solid #3882f6;
+  padding:55px 60px;
+  border-radius:12px;
+}
+
+.info{
+  max-width:200px;
+  margin-bottom:23px;
+}
+
+.quote-container{
+  background:#E5E7EB;
+  padding:70px 94px;
+}
+
+.quote{
+  font-size:36px;
+  font-style: italic;
+  color:#1F2937;
+  font-weight: 300;  
+  display:flex;
+  padding:23px 83px;
+  
+}
+
+.name{
+  display:flex;
+ justify-content:flex-end;
+ font-size:28px; 
+ font-weight: bold;
+ 
+}
+
+.sign-container{
+  padding:54px 290px;
+  background:#3882F6;
+  margin: 95px 100px;
+  border-radius: 7px;
+  
+  
+}
+
+.information{
+  color:#F9FAF8;
+  font-weight:900;
+  font-size:24px;
+  display:flex;
+  
+}
+
+.sign{
+ color:#F9FAF8;
+  
+}
+
+#button{
+border: 2px solid white;
+margin:0px
+}
+
+.con{
+  display:flex;
+  gap:56px;
+  align-items: first baseline;
+  
+}
+
+.footer{
+  background:#1F2937;
+  padding:33px;
+  color:#E5E7EB; 
+  display:flex;
+  justify-content:center;
+}
